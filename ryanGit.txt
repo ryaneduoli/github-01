@@ -1,0 +1,10 @@
+Comando GitHub
+git init = ele cria um repositorio em um diretorio vazio.
+git add = <nome do arquivo> inclui o arquivo no mapeamento do repositorio, incluindo todos os arquivos no mapeamento.
+git status = apresenta se ha arquivos e/ou mudanças que ainda nao fazem parte de um registro na linha do tempo (commit).
+git commit = -m "mensagem" cria um nó na linha do tempo, m= comentario que indica o conteudo da atualização.
+git config = <escopo, global, local> user.email"seu email" adiciona um email para manipular o repositorio.
+git config = <escopo> user.name"seu nome" adiciona um nome para o usuario.
+git remote add origin = "link do repositorio remoto" associa um repositorio local a um remoto.
+git push origin master = envia o conteudo local para o repositorio remoto. 
+git pull = atualiza o repositorio local com o conteudo do conteudo remoto.
